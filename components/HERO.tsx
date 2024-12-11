@@ -1,6 +1,8 @@
 
 import Link from "next/link"
 import { Button } from "./ui/button"
+import Image from "next/image"
+
 export default function Hero(){
     return(
         <section className="flex justify-center flex-col items-center bg-[#fafafa] m-4 ">
@@ -13,13 +15,15 @@ export default function Hero(){
             </div>
             <div
                  style={{
-                    backgroundImage: "url('/hero.png')",
+                    // backgroundImage: "url('/hero.png')",
                     backgroundSize: "cover", 
                     backgroundPosition: "center", 
                     backgroundRepeat: "no-repeat", 
                     height: "100vh", 
                     width: "100%", 
                   }}> 
+                  <Image alt="hero" width={200} height={200} src='hero.png'></Image>
+
             </div>
             <div className="flex justify-center items-center flex-col p-10 text-center
             ">
