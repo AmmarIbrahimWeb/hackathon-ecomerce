@@ -22,7 +22,7 @@ export default function Hero(){
                     height: "100vh", 
                     width: "100%", 
                   }}> 
-                  <Image alt="hero" width={200} height={200} src='hero.png'></Image>
+                  <Image alt="hero" width={200} height={200} src='Hero.png'></Image>
 
             </div>
             <div className="flex justify-center items-center flex-col p-10 text-center
