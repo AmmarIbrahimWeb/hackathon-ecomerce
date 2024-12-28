@@ -8,7 +8,8 @@ import GearUp from "@/components/GEARUP";
 import Nav from "@/components/HEADER";
 import Hero from "@/components/HERO";
 import Navigation from "@/components/Navigation";
-import { CarouselSize } from "@/components/BEST"
+
+import { CarouselSize } from "@/components/BEST";
 
 
 export default function Home() {
@@ -23,6 +24,8 @@ export default function Home() {
     <Essential/>
     <Navigation/>
     <Footer/>
+   
+
   </main>
   )
 }

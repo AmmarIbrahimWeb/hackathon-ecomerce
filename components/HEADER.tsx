@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+
 import { FaSearch, FaHeart, FaShoppingBag } from 'react-icons/fa'; 
 export default function Nav() {
   return (
@@ -7,14 +8,12 @@ export default function Nav() {
     {/* Top bar */}
     <div className="bg-[#fafafa] flex justify-between items-center px-6 py-2 md:text-[11px] sm:text-[9px] text-[8px] font-medium text-gray-500">
       <Image src={"/logo1.png"} alt={''} width={24} height={24}/>
-      <div>
-  <p className="text-black text-sm bg-white">Skip to main content</p>
-</div>
+      
       <div className="flex md:gap-4 sm:gap-3 gap-2">
         <Link href="/Location" className="hover:text-gray-800">Find Link Store</Link>
-        <Link href="#" className="hover:text-gray-800">Help</Link>
-        <Link href="#" className="hover:text-gray-800">Join Us</Link>
-        <Link href="#" className="hover:text-gray-800">Sign In</Link>
+        <Link href="/help" className="hover:text-gray-800">Help</Link>
+        <Link href="/join" className="hover:text-gray-800">Join Us</Link>
+        <Link href="/signUP" className="hover:text-gray-800">Sign In</Link>
       </div>
     </div>
 
