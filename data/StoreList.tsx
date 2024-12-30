@@ -1,5 +1,5 @@
 
-  const stores = [
+const stores = [
     {
       name: "Nike NYC - House of Innovation 000",
       address1: "650 5th Ave.",
