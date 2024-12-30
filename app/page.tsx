@@ -9,9 +9,6 @@ import Nav from "@/components/HEADER";
 import Hero from "@/components/HERO";
 import Navigation from "@/components/Navigation";
 
-
-
-
 import { CarouselSize } from "@/components/BEST";
 
 

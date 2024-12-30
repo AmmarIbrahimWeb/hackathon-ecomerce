@@ -19,7 +19,16 @@ const Help = () => {
                         </defs>
                     </svg></button>
 
+<<<<<<< HEAD
                 </div>
+=======
+
+
+
+                </div>
+
+
+>>>>>>> 8eeb7b5ee05fc3afc8fbf046b16c0e2e9a480984
                 <br />
             </div>
 
