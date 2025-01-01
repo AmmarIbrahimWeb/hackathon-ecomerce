@@ -1,4 +1,6 @@
 import { Button } from "./ui/button"
+import React from "react";
+
 import Image from "next/image"
 export default function DontMiss(){
     return(

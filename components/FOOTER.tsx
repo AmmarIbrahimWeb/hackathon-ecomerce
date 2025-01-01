@@ -1,4 +1,6 @@
 import Link from "next/link";
+import React from "react";
+
 import { FaTwitter, FaFacebook, FaYoutube, FaInstagram } from "react-icons/fa";
 import { IoLocationOutline } from "react-icons/io5";  // Import location icon
 

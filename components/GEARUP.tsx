@@ -1,3 +1,4 @@
+import React from "react";
 
 import { GearCarousel1 } from "@/components/GearCarousel1";
 import { GearCarousel2 } from "@/components/GearCarousel2";
