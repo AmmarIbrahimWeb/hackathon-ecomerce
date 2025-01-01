@@ -12,6 +12,7 @@ export default function Hero() {
                     <span>Download the app to access everything Nike.</span>{" "}
                     <Link href="/" className="text-blue-600 underline">
                         Get Your Great
+
                     </Link>
                 </p>
             </div>
@@ -19,7 +20,8 @@ export default function Hero() {
             {/* Hero Image Section */}
             <div
                 className="w-full h-[70vh] md:h-[80vh] bg-cover bg-center bg-no-repeat"
-                style={{ backgroundImage: "url('/hero.png')" }}
+                style={{ backgroundImage: "url('/public/hero.png')" }}
+
             ></div>
 
             {/* Content Section */}
